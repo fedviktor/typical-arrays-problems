@@ -21,7 +21,9 @@ exports.avg = function avg([array]) {
     // if (array.length === 0) {
     //     return 0;
     // } else {
-        let avgArray = array.reduce((a, b)=>return a+b) / 2;
+        let avgArray1 = array.reduce((a, b)=> a+b),
+        avgArray=avgArray1/2
+        
         return avgArray;
     // }
 };
